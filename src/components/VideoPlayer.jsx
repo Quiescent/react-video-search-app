@@ -8,6 +8,7 @@ export const VideoPlayer = ({ video }) => (
      (
        <div>
          <iframe
+           title="Youtube Video Player"
            id="player"
            type="text/html"
            height="390"
