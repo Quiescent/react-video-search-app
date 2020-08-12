@@ -1,0 +1,20 @@
+.video-list {
+    display: inline-block;
+    margin-left: 2em;
+    width: 38%;
+    @media (max-width: 1024px) {
+        width: 80%;
+    }
+    img {
+        display: inline-block;
+        cursor: pointer;
+    }
+    .header {
+        cursor: pointer;
+    }
+    .text {
+        padding-left: 1em;
+        display: inline-block;
+        width: 70%
+    }
+}

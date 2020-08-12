@@ -1,0 +1,8 @@
+.video-player {
+    width: 55%;
+    vertical-align: top;
+    display: inline-block;
+    @media (max-width: 1024px) {
+        width: 100%;
+    }
+}
