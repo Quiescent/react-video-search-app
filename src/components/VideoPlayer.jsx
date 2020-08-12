@@ -12,7 +12,7 @@ export const VideoPlayer = ({ video }) => (
            type="text/html"
            height="390"
            width="100%"
-           src={ `http://www.youtube.com/embed/${video.id.videoId}` }
+           src={ `https://www.youtube.com/embed/${video.id.videoId}` }
            frameborder="0">
          </iframe>
          <h4>{ video.snippet.title }</h4>
